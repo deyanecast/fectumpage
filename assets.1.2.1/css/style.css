@@ -112,7 +112,7 @@ header{
 {
     font-size: 40px;
     font-weight: 500;
-    padding: 10px 0px;
+    padding: 0px 0px;
 
 }
 
@@ -323,9 +323,9 @@ header{
 /* formulario*/
 
 #contacto{
-    background:#28B0AB  ;
-    padding: 50px 0px;
-    color: white;
+    background:#f6f8f8  ;
+    padding: 10px 0px;
+    color: rgb(31, 50, 51);
 
 }
 #contacto h4{
@@ -354,12 +354,12 @@ form label{
 form input,
 form textarea
 {
-    background: #28B0AB;
-    border-radius: 10px;
-    border: 2px solid #c6dfdf;
+    background: #f6f8f880;
+    border-radius: 8px;
+    border: 2px solid rgb(105 128 128);
     padding: 10px 5px;
     outline: 0;
-    color: white;
+    color: #535050;
     width: 100%;
 }
 
@@ -387,8 +387,8 @@ form textarea::placeholder{
     color: #fff;
     transition: 0.4s;
 }
-.boton-formulario .boton-saber-mas:hover{
-    background: #589D9B ;
+.boton-formulario .boton-saber-mas{
+    background: #607d8b ;
 }
 
 #iframe {
