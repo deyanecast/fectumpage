@@ -201,7 +201,7 @@ header{
 /*iconos*/
 #iconos{
     padding: 0px 50px;
-    background: rgba(77,77, 92, 0.6);
+    background: #263238;
 
 }
 
@@ -388,7 +388,7 @@ form textarea::placeholder{
     transition: 0.4s;
 }
 .boton-formulario .boton-saber-mas{
-    background: #607d8b ;
+    background: #263238 ;
 }
 
 #iframe {
@@ -450,7 +450,7 @@ form textarea::placeholder{
 
 .containerprin .card .face.face1{
   position: relative;
-  background:  rgb(82, 86, 90);
+  background:  #263238;
 
   display: flex;
   justify-content: center;
