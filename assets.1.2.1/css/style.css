@@ -61,7 +61,7 @@ header{
 #banner
 {
     padding: 0 50px;
-    background-image: url(../img/portada3.jpg);
+    background-image: url(../img/portada2.jpg);
     height: 90vh;
     background-size: cover;
     background-position: center;
@@ -76,6 +76,18 @@ header{
     background-position: center;
     max-height: 300px;
 }
+
+#bannercont
+{
+    padding: 0 50px;
+    background-image: url(../img/portada20.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    max-height: 500px;
+}
+
+
 
 #banner::before
 {
@@ -652,7 +664,7 @@ footer p
 }
 .site-footer a:hover
 {
-  color:#3366cc;
+  color:#fff;
   text-decoration:none;
 }
 .footer-links
@@ -670,7 +682,7 @@ footer p
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
-  color:#3366cc;
+  color:#fff;
   text-decoration:none;
 }
 .footer-links.inline li
@@ -801,7 +813,8 @@ footer p
         position: fixed;
         height: 100vh;
         width: 100%;
-        background: #767777;
+        background: #263238;
+
 
         right: -100%;
         top: 0;
@@ -816,6 +829,7 @@ footer p
     .menu a {
         display: block;
         padding: 20px;
+        color: rgb(224, 239, 243);
     }
     .esconder-menu
     {
