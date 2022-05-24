@@ -148,7 +148,7 @@ header{
 {
     text-decoration: none;
     color: white;
-    border: 1px solid #28B0AB;
+    border: 1px solid #03989D;
     padding: 20px 40px;
     align-self: baseline;
     transition: all 0.4s;
@@ -200,20 +200,20 @@ header{
     text-decoration: none;
     color: #ecf7f6;
     padding: 10px 30px;
-    border: 3px solid #28B0AB;
+    border: 3px solid #03989D;
     border-radius: 30px;
     margin-top: 15px;
     transition: all 0.4s;
 }
 .boton-saber-mas:hover{
-    background: #28B0AB;
+    background: #03989D;
     color: white;
 }
 
 /*iconos*/
 #iconos{
     padding: 0px 50px;
-    background: #263238;
+    background: #545454;
 
 }
 
@@ -243,7 +243,7 @@ header{
 }
 
 .contenido-iconos div i{
-    color:#28B0AB;
+    color:#03989D;
 }
 .contenido-iconos div h6{
     color: white;
@@ -272,6 +272,7 @@ header{
 .texto-servicios{
     text-align: center;
     padding-bottom: 50px;
+    color: rgb(31, 50, 51);
 }
 
 .carg-descripcion{
@@ -400,7 +401,7 @@ form textarea::placeholder{
     transition: 0.4s;
 }
 .boton-formulario .boton-saber-mas{
-    background: #263238 ;
+    background: #545454 ;
 }
 
 #iframe {
@@ -462,7 +463,7 @@ form textarea::placeholder{
 
 .containerprin .card .face.face1{
   position: relative;
-  background:  #263238;
+  background:  #545454;
 
   display: flex;
   justify-content: center;
@@ -472,7 +473,7 @@ form textarea::placeholder{
 }
 
 .containerprin .card:hover .face.face1{
-  background: #28B0AB;
+  background: #03989D;
   transform: translateY(0);
 }
 
@@ -573,7 +574,7 @@ form textarea::placeholder{
 footer 
 { 
   width:100%; 
-  background-color:#263238; 
+  background-color:#545454; 
   min-height:250px; 
   padding:10px 0px 25px 0px ;}
   
@@ -590,7 +591,7 @@ footer p
 }
 
 .contenido-footer div i{
-    color:#28B0AB;
+    color:#03989D;
 }
 .contenido-footer div h6{
     color: white;
@@ -628,7 +629,7 @@ footer p
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
-  color:#737373;
+  color:#545454;
 }
 .site-footer hr
 {
@@ -660,7 +661,7 @@ footer p
 
 .site-footer a
 {
-  color:#737373;
+  color: rgba(255, 255, 255, 0.55);
 }
 .site-footer a:hover
 {
@@ -678,7 +679,7 @@ footer p
 }
 .footer-links a
 {
-  color:#737373
+  color:#545454
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
@@ -701,7 +702,7 @@ footer p
   margin-left:6px;
   margin-right:0;
   border-radius:100%;
-  background-color:#33353d
+  background-color:#545454
 }
 .copyright-text
 {
