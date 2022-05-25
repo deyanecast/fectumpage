@@ -69,7 +69,7 @@
             <div class="container">
               <div class="carousel-caption">
                 <h1>Another example headline.</h1>
-                <img src="./assets.1.2.1/img/contacto1.jpg" alt="">
+                <img  class="d-block w-100" src="assets.1.2.1/img/portada2.jpg" alt="">
                 <p>Some representative placeholder content for the second slide of the carousel.</p>
                 <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
               </div>
@@ -166,7 +166,8 @@
  
     <script src="assets.1.2.1/js/page/inicio.js" type="text/javascript" async="async"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-     $(document).on('ready', function() {
+   <script>
+    $(document).on('ready', function() {
     $('#a3').on('click', function(e) {
         e.preventDefault();
         $("html, body").animate({scrollTop: $('#contacto').offset().top }, 1000);
