@@ -544,25 +544,6 @@ form textarea::placeholder{
 
 
 
-/* Footer
-.footer{
-    display: flex;
-    flex-direction: column;
-    background: #4d4d5c;
-    color : #cccccc4a;
-    width: 100%;
-    text-align: center;
-}
-.footer-social {
-    display: flex;
-    justify-content: space-around;
-}
-.footer .footer-social .social a {
-    display: flex;
-    margin: 25px;
-    height: 40px;
-    width: 40px;
-}*/
 
 .contenido-footer
 {
