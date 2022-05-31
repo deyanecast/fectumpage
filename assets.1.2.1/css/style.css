@@ -77,7 +77,7 @@ header{
 #bannerser
 {
     padding: 0 50px;
-    background-image: url(../img/portada3.jpg);
+    background-image: url(../img/portada5.jpg);
     height: 90vh;
     background-size: cover;
     background-position: center;
@@ -87,7 +87,7 @@ header{
 #bannercont
 {
     padding: 0 50px;
-    background-image: url(../img/portada20.jpg);
+    background-image: url(../img/portada2.jpg);
     height: 90vh;
     background-size: cover;
     background-position: center;
@@ -165,6 +165,25 @@ header{
 {
     background: #1bcbd870;
 }
+.boton-banner{
+  display: inline-block;
+  text-decoration: none;
+  margin: 0px;
+  color: #ecf7f6;
+  padding: 10px 20px;
+  border: 3px solid #03989D;
+  background-color: #03989D;
+  border-radius: 30px;
+  margin-top: 0px;
+  transition: all 0.4s;
+}
+.boton-banner:hover{
+  background: #03989D;
+  color: #545454;;
+}
+
+
+
 
 
 /*personas*/
@@ -794,6 +813,9 @@ footer p
 
 @media(max-width: 768px)
 {
+  
+  
+
     .mostrar-menu,
     .esconder-menu{
         display: block;
