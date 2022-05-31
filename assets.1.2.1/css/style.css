@@ -238,6 +238,10 @@ header{
 }
 
 /*iconos*/
+.col-lg-4{
+  padding-left: 120px !important;
+}
+
 #iconos{
     padding: 0px 50px;
     background: #545454;
