@@ -32,7 +32,7 @@ switch($request){
 
 function EnviarCorreo($nombre,$mail,$mensaje,$telefono)
 {
-    $to = "arroyoalejandra97@gmail.com,deyanecast@gmail.com";
+    $to = "info@fectumgroup.com";
     $subject = "Fectum Group: Nuevo mensaje";
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
