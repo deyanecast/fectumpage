@@ -10,10 +10,12 @@
     <title>FECTUM GROUP</title>
     <link rel="icon" href="assets.1.2.1/img/logo.png">
     <link rel="stylesheet" href="assets.1.2.1/css/style.css">
+    <link rel="stylesheet" href="assets.1.2.1/css/somos.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/...">
     <script src="https://kit.fontawesome.com/f49ecf94c5.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -23,9 +25,9 @@
         &#8801
     </label>
     <nav class="menu" id="menu">
-        <a href="" >Inicio</a>
+        <a href="index.html" >Inicio</a>
         <a href="services.html" >NUESTROS SERVICIOS</a>
-        <a href="contact.html" id="a3">CONTACTANOS</a>  
+        <a href="contact.html" >CONTACTANOS</a>  
         <label for="check" class="esconder-menu">
             &#215
         </label>
@@ -34,31 +36,40 @@
 
     <section id="bannerser">
         <div class="contenido-banner-ser">
-            <h3>
-                <span>ACERCA DE NOSOTROS</span>
-            </h3>
+            
         </div>
     </section>
-    <br><br>
-    <div class="texto-servicios">
-       <h2><i class="fa-solid fa-hammer"></i> Conoce más sobre nosotros.</h2>
-    </div>
 
-   <section id="servicios">
-    <div class="tarjeta">
-        <div class="titulo">Nuestra Cultura</div>
-        <br>
-        <div class="cuerpo">
-           <img src="/imgs/cards0-img.jpg" alt="muestra">
-           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis eius voluptatem, adipisci error consectetur quisquam libero debitis commodi dignissimos, quibusdam velit eos quo labore repellendus at atque delectus praesentium. Inventore!
-        </div>
-        <div class="pie">
-           <a href="#">Conocenos</a>
-        </d iv>
-        </div>
-   </section>
-   <br>
-   
+<!--empieza blog-->
+<section class="dark">
+	<div class="container py-4">
+		<h1 class="h1 text-center" id="pageHeaderTitle">NUESTRA CULTURA</h1>
+
+		<article class="postcard dark blue">
+			<a class="postcard__img_link" href="#">
+				<img class="postcard__img" src="assets.1.2.1/img/banner3.jpg" alt="Image Title" />
+			</a>
+			<div class="postcard__text">
+				<h1 class="postcard__title blue"><a href="">Podcast Title</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="2020-05-25 12:00:00">
+						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+					</time>
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+				<ul class="postcard__tagbox">
+				
+					<li class="tag__item play blue">
+						<a href="index.html"><i class="fas fa-play mr-2"></i>Volver al inicio</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+		
+        </section>
+
+
     <footer class="site-footer">
         <section id="site-footer">
             <div class="contenido-footer">
@@ -125,8 +136,9 @@
 
  
     <script src="assets.1.2.1/js/page/inicio.js" type="text/javascript" async="async"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
    <script>
-     $(document).on('ready', function() {
+    $(document).on('ready', function() {
     $('#a3').on('click', function(e) {
         e.preventDefault();
         $("html, body").animate({scrollTop: $('#contacto').offset().top }, 1000);
