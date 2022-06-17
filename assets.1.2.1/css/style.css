@@ -77,11 +77,11 @@ header{
 #bannerser
 {
     padding: 0 50px;
-    background-image: url(../img/portada5.jpg);
-    height: 90vh;
+    background-image: url(../img/banner.jpg);
+    height: 100vh;
     background-size: cover;
     background-position: center;
-    max-height: 300px;
+    max-height: 500px;
 }
 
 #bannercont
@@ -817,8 +817,15 @@ footer p
 
 @media(max-width: 768px)
 {
+
+  #bannerser
+  {
+    height: 28vh;
+  }
   
-  
+  .img1,.img2,.img3{
+    height: 23vh;
+  }
 
     .mostrar-menu,
     .esconder-menu{
