@@ -77,7 +77,7 @@ header{
 #bannerser
 {
     padding: 0 50px;
-    background-image: url(../img/banner.jpg);
+    background-image: url(../img/banner3.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -301,9 +301,12 @@ header{
 }
 
 .texto-servicios{
+  font-family: "Poppins", sans-serif;
     text-align: center;
     padding-bottom: 50px;
-    color: rgb(31, 50, 51);
+    font-weight: 200;
+  color: hsl(234, 12%, 34%);
+ 
 }
 
 .carg-descripcion{
