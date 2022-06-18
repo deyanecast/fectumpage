@@ -89,6 +89,7 @@
   bottom: -16px;
 }
 .material-card .mc-content {
+ height: 122%;
   position: absolute;
   right: 0;
   top: 0;
@@ -125,11 +126,12 @@
   top: 62px;
 }
 .material-card .mc-description {
+
   position: absolute;
   top: 100%;
   right: 30px;
   left: 30px;
-  bottom: 54px;
+  bottom: 5px;
   overflow: hidden;
   opacity: 0;
   filter: alpha(opacity=0);
