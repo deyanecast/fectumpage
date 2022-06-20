@@ -245,6 +245,7 @@ header{
 #iconos{
     padding: 0px 50px;
     background: #545454;
+    
 
 }
 
@@ -293,6 +294,37 @@ header{
     padding-bottom: 50px;
 }
 
+/*nosotros*/
+
+#sobre{
+  padding: 0px 50px;
+  background: #fff;
+
+}
+#servicess{
+  padding: 0px 50px;
+  background: rgb(135, 134, 134);
+  transition:all 0.3s ease;
+
+}
+.fade
+{
+        opacity:0.5;
+}
+.fade:hover
+{
+        opacity:1;
+}
+
+#sobre div p{
+padding: 20px;
+text-align: justify;
+
+}
+
+
+
+
 /*servicios*/
 #servicios{
   padding: 0px 50px;
@@ -305,7 +337,24 @@ header{
     text-align: center;
     padding-bottom: 50px;
     font-weight: 200;
-  color: hsl(234, 12%, 34%);
+  color: hsl(234, 13%, 85%);
+ 
+}
+.texto-valores{
+  font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: 200;
+  color: hsl(235, 44%, 95%);
+ 
+}
+.texto-somos{
+  font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: 200;
+  color: hsl(240, 2%, 34%);
+  background-color: #fff;
  
 }
 
