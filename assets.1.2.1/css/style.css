@@ -253,7 +253,13 @@ header {
   text-align: center;
 }
 
+.boton-iconos{
+  text-align: center;
+  padding-bottom: 50px;
 /*nosotros*/
+}
+
+
 
 #sobre {
   padding: 0px 50px;
