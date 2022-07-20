@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -267,7 +269,7 @@ header {
 }
 #servicess {
   padding: 0px 50px;
-  background: rgb(135, 134, 134);
+  background: rgb(112, 109, 109);
   transition: all 0.3s ease;
 }
 .fade {
@@ -289,10 +291,11 @@ header {
 }
 
 .texto-servicios {
-  font-family: "Poppins", sans-serif;
+
   text-align: center;
   padding-bottom: 50px;
   font-weight: 200;
+  font-family: 'Roboto';
   color: hsl(234, 13%, 85%);
 }
 .texto-valores {
