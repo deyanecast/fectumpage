@@ -72,7 +72,6 @@
     text-align: center;
   }
   div.card {
-    background: #ffffff;
     display: inline-block;
     margin: 8px;
     max-width: 300px;
@@ -83,6 +82,7 @@
     width: 300px;
     z-index: 1;
   }
+
   div.card img {
     max-width: 300px;
   }
