@@ -261,7 +261,11 @@ header {
 /*nosotros*/
 }
 
-
+div.cards {
+  margin: 0px auto;
+  max-width: 960px;
+  text-align: center;
+}
 
 #sobre {
   padding: 0px 50px;

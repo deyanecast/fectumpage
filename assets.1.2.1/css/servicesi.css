@@ -67,7 +67,7 @@
     transition: all 0.025s 0s ease-out;
   }
   div.cards {
-    margin: 100px auto;
+    margin: 0px auto;
     max-width: 960px;
     text-align: center;
   }
