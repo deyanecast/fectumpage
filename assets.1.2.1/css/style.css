@@ -272,7 +272,7 @@ div.cards {
   background: #fff;
 }
 #servicess {
-  padding: 0px 50px;
+  padding: 20px 20px;
   background: rgb(119, 175, 185);
   transition: all 0.3s ease;
 }
@@ -877,6 +877,10 @@ footer p {
   /*iconos*/
   .contenido- {
     flex-direction: column;
+  }
+  .cards{
+    flex-direction: column;
+    
   }
   .contenido-iconos div {
     border: none;
