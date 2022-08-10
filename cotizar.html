@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css">
+      
+       </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FECTUM GROUP</title>
+    <link rel="icon" href="assets.1.2.1/img/logo.png">
+    <link rel="stylesheet" href="assets.1.2.1/css/style.css">
+    <link rel="stylesheet" href="assets.1.2.1/css/cotizar.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/...">
+    <script src="https://kit.fontawesome.com/f49ecf94c5.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="assets.1.2.1/img/logo.png" alt="" height="95" width="95"></a>
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+          &#8801
+        </label>
+        <nav class="menu" id="menu">
+          <a href="index.html">INICIO</a>
+          <a href="somos.html">Sobre Nosotros</a>
+          <a href="services.html">Nuestros Servicios</a>
+          <a href="equipo.html">Nuestro Equipo</a>
+          <label for="check" class="esconder-menu">
+            &#215
+          </label>
+        </nav>
+      </header>
+      <div id="container">
+        <br>
+        <h1> Cotizar </h1>
+        <br>
+        <div class="underline">
+        </div>
+       
+        <form >
+          <div class="name">
+            <label for="name"></label>
+            <input type="text" placeholder="Nombre" name="name" id="name_input" required>
+          </div>
+          <div class="email">
+            <label for="email"></label>
+            <input type="email" placeholder="Email" name="email" id="email_input" required>
+          </div>
+          <div class="telephone">
+            <label for="name"></label>
+            <input type="text" placeholder="Numero" name="telephone" id="telephone_input" required>
+          </div>
+          <div class="subject">
+            <label for="subject"></label>
+            <select placeholder="Tipo de Servicio" name="subject" id="subject_input" required>
+              <option disabled hidden selected>Tipo de Servicio</option>
+              <option>Servicio 1</option>
+              <option>Servicio 2</option>
+              <option>Servicio 3</option>
+            </select>
+          </div>
+          <div class="message">
+            <label for="message"></label>
+            <textarea name="message" placeholder="Mensaje" id="message_input" cols="30" rows="5" required></textarea>
+          </div>
+          <div class="submit">
+            <input type="submit" value="Enviar Cotización" id="form_button" />
+          </div>
+        </form><!-- // End form -->
+      </div><!-- // End #container -->
+      <!-- partial -->
+      
+       <footer class="site-footer">
+        <section id="site-footer">
+          <div class="contenido-footer">
+            <div>
+              <br>
+            </div>
+            <div>
+              <h5>Encuentranos</h5>
+              <p><i class="fa fa-location-arrow"></i> Ciudad de Guatemala </p>
+              <p><i class="fa fa-phone"></i> +502 3460425 </p>
+              <p><i class="fa fa fa-envelope"></i> info@fectumgroup.com </p>
+              <br>
+            </div>
+            <div>
+              <br>
+            </div>
+          </div>
+        </section>
+        <div class="container">
+          <div class="row">
+            <p class="marca">Siguenos en nuestras redes sociales</p>
+          </div>
+        </div>
+        <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by
+              <a href="#">aledeyane.S.A.</a>
+            </p>
+          </div>
+          <ul class="social-icons">
+            <li><a class="facebook" target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="dribbble" target="_blank" href="https://www.instagram.com/fectum_group/"><i
+                  class="fa-brands fa-instagram"></i></a></li>
+            <li><a class="webs" target="_blank" href="fectumgroup.com"><i class="fa fa-dribbble"></i></a></li>
+            <li><a class="linkedin" target="_blank" href="https://www.linkedin.com/company/fectum-group-s-a/"><i
+                  class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        </div>
+        </div>
+      </footer>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+ 
+    <script src="assets.1.2.1/js/page/inicio.js" type="text/javascript" async="async"></script>
+   <script>
+     $(document).on('ready', function() {
+    $('#a3').on('click', function(e) {
+        e.preventDefault();
+        $("html, body").animate({scrollTop: $('#contacto').offset().top }, 1000);
+    });
+    $('#regresar').on('click', function(e) {
+        e.preventDefault();
+        $("html, body").animate({scrollTop: $('#menu').offset().top }, 1000);
+    });
+    $('#a4').on('click', function(e) {
+        e.preventDefault();
+        $("html, body").animate({scrollTop: $('#contacto').offset().top }, 1000);
+    });
+    $('#a2').on('click', function(e) {
+        e.preventDefault();
+        $("html, body").animate({scrollTop: $('#personas').offset().top }, 1000);
+    });
+});
+
+   </script>
+</body>
+</html>
