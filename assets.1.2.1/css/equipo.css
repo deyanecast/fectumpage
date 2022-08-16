@@ -23,6 +23,35 @@
     transform: rotate(359deg);
   }
 }
+
+.texto-equipo h1 {
+  font-family: "Poppins", sans-serif;
+  margin-top: -95px;
+  text-align: center;
+  font-weight: 200;
+  color: hsl(240, 2%, 34%);
+  background-color: #fff;
+}
+.texto-equipo {
+  font-family: "Poppins", sans-serif;
+  margin: 50px;
+  text-align: justify;
+  padding: 0px;
+  font-weight: 200;
+  color: hsl(240, 2%, 34%);
+  background-color: #fff;
+}
+
+img.izquierda {
+  float: left;
+  margin-right: 15px;
+}
+
+.texto-equipo img {
+  padding-bottom: 50px;
+  font-weight: 200;
+}
+
 .material-card {
   position: relative;
   height: 0;
