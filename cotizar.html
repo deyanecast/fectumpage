@@ -35,7 +35,7 @@
       </header>
       <div id="container">
         <br>
-        <h1> Cotizar </h1>
+        <h1 class="paraTitulos"> Cotizar </h1>
         <br>
         <div class="underline">
         </div>
@@ -57,9 +57,16 @@
             <label for="subject"></label>
             <select placeholder="Tipo de Servicio" name="subject" id="subject_input" required>
               <option disabled hidden selected>Tipo de Servicio</option>
-              <option>Servicio 1</option>
-              <option>Servicio 2</option>
-              <option>Servicio 3</option>
+              <option value="Topografia">Topografia</option>
+              <option value="Movimiento de Tierras">Movimiento de Tierras</option>
+              <option value="Diseño Arquitectónico">Diseño Arquitectónico</option>
+              <option value="Asesoria y Consultoria">Asesoria y Consultoria</option>
+              <option value="Planificación">Planificación</option>
+              <option value="Ejecución de proyectos">Ejecución de proyectos</option>
+              <option value="Remodelaciones">Remodelaciones</option>
+              <option value="Mantenimiento de infraestructura">Mantenimiento de infraestructura</option>
+              <option value="Desarrollo Inmobiliario">Desarrollo Inmobiliario</option>
+
             </select>
           </div>
           <div class="message">
@@ -67,7 +74,7 @@
             <textarea name="message" placeholder="Mensaje" id="message_input" cols="30" rows="5" required></textarea>
           </div>
           <div class="submit">
-            <input type="submit" value="Enviar Cotización" id="form_button" />
+            <input type="submit" class="paraTitulos" value="Enviar Cotización" id="form_button" />
           </div>
         </form><!-- // End form -->
       </div><!-- // End #container -->

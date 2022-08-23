@@ -1,11 +1,27 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "Arista ExtraLight";
+  src: url("../fuentes/Arista-Pro-ExtraLight-trial.ttf");
+}
+
+.paraTitulos{
+  font-family: "Arista ExtraLight", sans-serif;
+  
+}
+.paraParrafos{
+  font-family: 'Roboto', sans-serif;
+  font-size: 126%;
+}
+
 
 header {
   height: 100px;
@@ -73,7 +89,7 @@ header {
 
 #bannerser {
   padding: 0 50px;
-  background-image: url(../img/banner3.jpg);
+  background-image: url(../img/equipo.JPG);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -303,7 +319,7 @@ div.cards {
   color: hsl(234, 13%, 85%);
 }
 .texto-valores {
-  font-family: "Poppins", sans-serif;
+
   text-align: center;
   padding-bottom: 50px;
   font-weight: 200;
@@ -311,7 +327,7 @@ div.cards {
 }
 
 .texto-somos h1 {
-  font-family: "Poppins", sans-serif;
+
   margin-top: -95px;
   text-align: center;
   font-weight: 200;
@@ -319,7 +335,7 @@ div.cards {
   background-color: #fff;
 }
 .texto-somos {
-  font-family: "Poppins", sans-serif;
+
   margin: 50px;
   text-align: justify;
   padding: 0px;
