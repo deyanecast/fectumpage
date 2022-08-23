@@ -1,9 +1,10 @@
 <?php
 
 
-function mail_constructor($nombre,$mail,$mensaje,$telefono){
+function mail_constructor_cotiza($nombre,$mail,$mensaje,$telefono,$servicio){
 	$title = 'Nuevo mensaje de : '.$nombre.'('.$mail.')';
 	$numero = 'Telefono: '.$telefono.'';
+    $servicio = 'Tipo de Servicio: '.$servicio.'';
 	
  	return $salida = '
 <!DOCTYPE html>
@@ -36,7 +37,10 @@ function mail_constructor($nombre,$mail,$mensaje,$telefono){
 					<td align="center" bgcolor="#ffffff" style="padding: 10px 30px 10px 30px;">
 					
 						<h2>'.$title.'</h2>
+                        <br>
 						<h3>'.$telefono.'</h3>
+                        <br>
+                        <h3>'.$servicio.'</h3>
 						<br>
 					</td>
 				</tr>

@@ -89,12 +89,22 @@ header {
 
 #bannerser {
   padding: 0 50px;
-  background-image: url(../img/equipo.JPG);
+  background-image: url(../img/banner2.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
   max-height: 500px;
 }
+
+#bannersomos {
+  padding: 0 50px;
+  background-image: url(../img/equipo2.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  max-height: 500px;
+}
+
 
 #bannercont {
   padding: 0 50px;
@@ -819,6 +829,9 @@ footer p {
 
 @media (max-width: 768px) {
   #bannerser {
+    height: 28vh;
+  }
+  #bannersomos {
     height: 28vh;
   }
 

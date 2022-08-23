@@ -2,7 +2,7 @@
 function Enviar()
 {
     Swal.fire({
-        title: 'Desea enviar este mensaje al administrador?',
+        title: 'Desea enviar esta cotización?',
         showDenyButton: true,
 
         confirmButtonText: 'Si',
