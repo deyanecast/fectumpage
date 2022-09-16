@@ -849,7 +849,8 @@ footer p {
     position: fixed;
     height: 100vh;
     width: 100%;
-    background: #263238;
+    background: 
+    rgb(119, 175, 185);
 
     right: -100%;
     top: 0;
@@ -862,7 +863,7 @@ footer p {
   .menu a {
     display: block;
     padding: 20px;
-    color: #03989D;
+    color: #d2e0e1;
   }
   .esconder-menu {
     position: absolute;
