@@ -239,7 +239,7 @@ header {
 
 #iconos {
   padding: 0px 50px;
-  background: #545454;
+  background: rgb(119,175,185);
 }
 
 #iconos div p {
@@ -264,7 +264,7 @@ header {
 }
 
 .contenido-iconos div i {
-  color: #03989d;
+  color: #696565;
 }
 .contenido-iconos div h6 {
   color: white;
