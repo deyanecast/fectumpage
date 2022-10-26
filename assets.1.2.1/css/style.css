@@ -459,7 +459,7 @@ form textarea {
   color: #535050;
   width: 100%;
 }
-#telefono
+#telefonoSSS
 {
   background: #f6f8f880;
   border-radius: 8px;
@@ -469,6 +469,8 @@ form textarea {
   color: #535050;
   width: 100%;
   margin: 7.6px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 #labeltel
 {
@@ -852,9 +854,7 @@ footer p {
     margin-right: 0;
     font-weight: 600;
   }
-  #telefono{
-    width: 100%;
-  }
+ 
 }
 
 @media (max-width: 768px) {
@@ -950,9 +950,7 @@ footer p {
   .datos-form {
     flex-direction: column;
   }
-  #telefono{
-    width: 100%;
-  }
+  
  
 }
 
