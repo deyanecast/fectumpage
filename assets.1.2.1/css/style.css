@@ -57,7 +57,7 @@ header {
 }
 
 .carousel-item {
-  height: 29rem;
+  height: 40rem;
   background-color: white;
   color: white;
   position: relative;
@@ -868,7 +868,7 @@ footer p {
   .img1,
   .img2,
   .img3 {
-    height: 23vh;
+    height: 45vh;
   }
 
   .mostrar-menu,
