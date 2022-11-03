@@ -20,10 +20,10 @@ function Enviar()
 
 
 function EnviarMensaje(){
-    nombre = document.getElementById('name_input');
-    email = document.getElementById('email_input');
-    mensaje = document.getElementById('message_input');
-    telefono = document.getElementById('telephone_input');
+    nombre = document.getElementById('nombre');
+    email = document.getElementById('email');
+    mensaje = document.getElementById('mensaje');
+    telefono = document.getElementById('telefono');
     servicio = document.getElementById('subject_input');
     if(nombre.value !== "" && mensaje.value !== "" && email.value !== "" && telefono.value !== ""){
         /////////// POST /////////
